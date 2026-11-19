@@ -604,6 +604,7 @@ public final class Pets {
 
     private static void petTick(MinecraftServer s, StalkerEntity m, int now) {
         if (m.isScripted()) return;                                         // escena de la cabra
+        if (m.isNoAi() && !m.getPersistentData().getBoolean("sentado")) m.setNoAi(false);   // los guardados de antes quedaron sin IA
         String id = m.getDefId();
         Integer bu = bounceUntil.get(m.getUUID());
         if (bu != null && now >= bu) {

@@ -249,3 +249,6 @@ Entidades: 114 definiciones (45 nuevas, `stalker_observer` se conserva aunque 5.
 
 ## Tanda 53
 - El celular y el HUD (`CelularClient`, `HudClient`) ya no usan el registro de overlays (`RegisterGuiOverlaysEvent`, que daba "Overlay already registered"): se dibujan con `RenderGuiEvent.Post`. Si el menu salia pero el video no, era por ese registro.
+
+## Tanda 54
+- Verity y las mascotas no te seguian: `StalkerEntity` ponia `setNoAi(true)` a todo lo que no persigue, y sin IA el navegador no avanza. Ahora `verity` y `mascota*` tienen IA (siguen con pathfinding); los ya guardados se corrigen solos al hacer tick.

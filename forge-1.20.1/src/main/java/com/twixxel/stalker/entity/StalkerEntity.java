@@ -112,7 +112,9 @@ public class StalkerEntity extends PathfinderMob implements GeoEntity, Molang.Co
                 || (scare != null && scare.chaseAs != null);
         this.setNoGravity(!def.gravity && !chaser);
         this.noPhysics = !def.gravity && !chaser && "idle".equals(def.behavior);
-        this.setNoAi(!chaser);
+        // Verity y las mascotas te siguen con el pathfinding (Verity.follow / Pets): sin IA el navegador no avanza nunca
+        boolean follower = "verity".equals(def.id) || def.id.startsWith("mascota");
+        this.setNoAi(!chaser && !follower);
         if (!level.isClientSide) {
             entityData.set(PROPS, encode());
             // un mob avanza ~43 * atributo bloques/s (el jugador con 0.1 va a 4.3)

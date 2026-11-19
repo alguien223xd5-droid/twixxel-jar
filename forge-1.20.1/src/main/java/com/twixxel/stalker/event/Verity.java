@@ -288,6 +288,7 @@ public class Verity {
     }
 
     private static void follow(MinecraftServer s, StalkerEntity v, int now) {
+        if (v.isNoAi()) v.setNoAi(false);      // los guardados de antes quedaron sin IA y no podian caminar
         if (sitting(v) || !v.getPersistentData().hasUUID("dueno")) {
             v.setProp("mueve", 0);
             return;
