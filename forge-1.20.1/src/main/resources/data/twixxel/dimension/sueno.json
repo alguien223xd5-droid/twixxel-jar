@@ -1,0 +1,13 @@
+{
+  "type": "twixxel:sueno",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "twixxel:sueno",
+      "features": false,
+      "lakes": false,
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

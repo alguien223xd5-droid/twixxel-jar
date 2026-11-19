@@ -1,0 +1,12 @@
+{
+ "parent": "minecraft:block/cube",
+ "textures": {
+  "particle": "twixxel:block/armario/spruce_side",
+  "down": "twixxel:block/armario/spruce_side",
+  "up": "twixxel:block/armario/spruce_side",
+  "north": "twixxel:block/armario/spruce_open_top",
+  "east": "twixxel:block/armario/spruce_side",
+  "south": "twixxel:block/armario/spruce_side",
+  "west": "twixxel:block/armario/spruce_side"
+ }
+}

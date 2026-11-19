@@ -1,0 +1,1 @@
+{"format_version": "1.8.0", "animations": {"animation.twx_mirar.cuerpo.xy": {"loop": true, "bones": {"twx_raiz": {"relative_to": {"rotation": "entity"}, "rotation": [0, "-query.twx_body_yaw + query.twx_cam_yaw", 0]}}}}}

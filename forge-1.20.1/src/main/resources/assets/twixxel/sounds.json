@@ -1,0 +1,2050 @@
+{
+ "stalker.spawn": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/musica",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.evil": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/evil_music",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.window_voice": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/window_voice",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.window_break": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/window_break",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.window_scary": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/door_anim",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.goat": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_music",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.tree_voice": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/tree_voice",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.hey_voice": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/hey_voice",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.ignore_voice": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ignore_voice",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.ignore_music": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ignore_music",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.door_voice": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/door_voice",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.door_anim": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/door_anim",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.run": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/run_music",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.woman_voice": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ambient_3min",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.goat_window_voice": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_window_voice",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.goatevil": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatevil_music",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.screamer_spawn": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/screamer_spawn",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.screamer_chase1": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ignore_voice",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.screamer_chase2": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/screamer_chase2",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.ambient_steps": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ambient_steps",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.ambient_3min": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ambient_3min",
+    "volume": 0.2,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.hello": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/hello_sound",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "mascota.saludo": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/mascota_saludo",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "mascota.hueso": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/mascota_hueso",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.run_crack": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/run_crack",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.dontcry_bye": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/dontcry_bye",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.run_crack_1": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/run_crack_1",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.run_crack_2": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/run_crack_1",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.run_crack_3": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/run_crack_1",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.window_voice_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/door_voice_es",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.door_voice_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/door_voice_es",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.woman_voice_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/door_voice_es",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.goat_window_voice_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_window_voice_es",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.hey_voice_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/hey_voice_es",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.ignore_voice_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ignore_voice_es",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.ignore_music_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ignore_music_es",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "mascota.saludo_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/mascota_saludo_es",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "mascota.hueso_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/mascota_hueso_es",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.tree_voice_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/tree_voice_es",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.hello_run": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/hello_run",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.hello_run_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/hello_run_es",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.hello_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_jester_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.goat_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.wb_music": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.wb_crack1": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/wb_crack1",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.wb_crack2": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/wb_crack2",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.wb_crack3": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/wb_crack3",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.wb_shatter": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/wb_shatter",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.spotted_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/spotted_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.smiler_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/smiler_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.unknown_scream": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/unknown_scream",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.unknown_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/unknown_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.peeker_vanish": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/peeker_vanish",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.peeker_scream": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/peeker_scream",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.observer_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/observer_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.hole_music": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/hole_music",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.wb_break_seq": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/wb_break_seq",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.goat_next_voice": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_next_voice",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.goat_next_voice_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_next_voice_es",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.ansiedad_spawn": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ansiedad_spawn",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.ansiedad_mom": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ansiedad_mom",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.sufrimiento_voice_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/sufrimiento_voice_es",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.sufrimiento_voice": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/sufrimiento_voice",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.tortura": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.hello2_voice": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/hello2_voice",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.hello2_voice_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/hello2_voice_es",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.vida_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/screamer_chase2",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.peek_hola": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/peek_hola",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.peek_hi": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/peek_hi",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.goat_crawl_scream": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_crawl_scream",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.jester_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_jester_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.puertas_crack": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/puertas_crack",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.run_hola": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/run_hola",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.run_hola_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/run_hola_es",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.arriba_grito": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/arriba_grito",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.goat_door_break": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_door_break",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "mascota2.toque": {
+  "sounds": [
+   {
+    "name": "twixxel:mascota2/toque",
+    "volume": 1.0
+   }
+  ]
+ },
+ "mascota3.toque": {
+  "sounds": [
+   {
+    "name": "twixxel:mascota3/toque",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.goat_jester_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_jester_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.pasillo": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/door_anim",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.pelea_golpe": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/pelea_golpe",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.pelea_desgarro": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/pelea_desgarro",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.vigilante_music": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/vigilante_music",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.luz_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/luz_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.luz_run": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/luz_run",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.luz_run_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/luz_run_es",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.js_ansiedad": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/ansiedad",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.js_crack1": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/crack1",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_crack2": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/crack2",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_crack3": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/crack3",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_evil": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/evil",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.js_goat": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/goat",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_goat_jester": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/goat_jester",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_goat_jester_caida": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/goat_jester_caida",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.js_goatevil": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/goatevil",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.js_golpe": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/golpe",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_hello": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/hello",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.js_jester": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/jester",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.js_luz": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/luz",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.js_luz_respira": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/luz_respira",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.js_observer": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/observer",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_quad_red": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/quad_red",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.js_redlight": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/redlight",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_redlight_buzz": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/redlight_buzz",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_run": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/run",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_screamer": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/screamer",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_screamer_golpe": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/screamer_golpe",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_smiler": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/smiler",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_spotted": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/spotted",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_tortura": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/tortura",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.js_unknown": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/unknown",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_vida": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/vida",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.js_vida_latido": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/js/vida_latido",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.bed_saliendo": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/bed_saliendo",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.bed_saliendo_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/bed_saliendo_es",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.life_music": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/life_music",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.puerta_golpe1": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/puerta_golpe1",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.puerta_golpe2": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/puerta_golpe2",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.puerta_golpe3": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/puerta_golpe3",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.puerta_toc": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/puerta_toc",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.puerta_rasguno": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/puerta_rasguno",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.puerta_rompe": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/puerta_rompe",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.ignore_grito": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ignore_grito",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.diversion_voz_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/diversion_voz_es",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.diversion_voz_en": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/diversion_voz_en",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.diversion_music": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/diversion_music",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "mascota4.toque": {
+  "sounds": [
+   {
+    "name": "twixxel:mascota4/toque",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.solocorre_voz_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/solocorre_voz_es",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.solocorre_voz_en": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/solocorre_voz_en",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.solocorre_grito": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/solocorre_grito",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.solocorre_musica": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/solocorre_musica",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.asomandome": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/asomandome",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.goat_v2_hey": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_v2_hey",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.tormentor_door": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/tormentor_door",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.tormentor_r": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/tormentor_r",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.run_grito": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/arriba_grito",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.goat_hole_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goat_hole_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.dk_knock": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/dk_knock",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.celular_video": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/celular_video",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.celular_video2": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/celular_video2",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.celular_video3": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/celular_video3",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "mascota5.toque": {
+  "sounds": [
+   {
+    "name": "twixxel:mascota5/toque",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.watcher": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/watcher_sound",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.watcher_theme": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/watcher_theme",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.watcher_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/watcher_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "mascota5.xd": {
+  "sounds": [
+   {
+    "name": "twixxel:mascota5/xd",
+    "volume": 1.0
+   }
+  ]
+ },
+ "mascota5.gracias": {
+  "sounds": [
+   {
+    "name": "twixxel:mascota5/gracias",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.smiler_ventana_rompe": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/smiler_ventana_rompe",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.evilblack_voz1": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/evilblack_voz1",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.evilblack_voz2": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/evilblack_voz2",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.evilblack_music": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/evil_music",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "twixxel.verity_m0": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m0",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m1": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m1",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m2": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m2",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m3": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m3",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m4": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m4",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m5": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m5",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m6": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m6",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m7": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m7",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m8": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m8",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m9": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m9",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m10": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m10",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m11": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m11",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m12": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m12",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m13": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m13",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m14": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m14",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m15": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m15",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m16": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m16",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m17": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m17",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.verity_m18": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/verity/m18",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.celular_video4": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/celular_video4",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "twixxel.goatm_0": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m0",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_1": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m1",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_2": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m2",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_3": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m3",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_4": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m4",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_5": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m5",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_6": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m6",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_7": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m7",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_8": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m8",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_9": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m9",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_10": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m10",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_11": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m11",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_12": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m12",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_13": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m13",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_14": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m14",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_15": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m15",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_16": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m16",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_17": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m17",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_18": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m18",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_19": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m19",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_20": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m20",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_21": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m21",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_22": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m22",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_23": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m23",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_24": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m24",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_25": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m25",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_26": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m26",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_27": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m27",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_28": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m28",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_29": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m29",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_30": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m30",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_31": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m31",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_32": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m32",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_33": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m33",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_34": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m34",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_35": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m35",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_36": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m36",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_37": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m37",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_38": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m38",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_39": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m39",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_40": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m40",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.goatm_41": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/goatm/m41",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.bienvenido_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/bienvenido_es",
+    "volume": 1.0
+   }
+  ]
+ },
+ "twixxel.bienvenido_en": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/bienvenido_en",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.celular_video5": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/celular_video5",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.lc_music": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/lc_music",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.lc_voz_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/lc_voz_es",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.lc_voz_en": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/lc_voz_en",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.cu_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/cu_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.cu_voz_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/cu_voz_es",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.cu_voz_en": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/cu_voz_en",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.wb_video": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/wb_video",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.bed_voz_es": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/bed_voz_es",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.bed_voz_en": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/bed_voz_en",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.trep_music": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/lc_music",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.celular_video6": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/celular_video6",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.mb_music": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/mb_music",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.missalan": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/missalan",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.vhs_video": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/vhs_video",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.envuelto_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/envuelto_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.tele3_video": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/tele3_video",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.amb_horror_drone": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ambiente/horror_drone",
+    "volume": 0.8,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.amb_creepy_wind": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ambiente/creepy_wind",
+    "volume": 0.8,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.amb_dark_ambient": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ambiente/dark_ambient",
+    "volume": 0.8,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.amb_cs_door": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/ambiente/cs_door",
+    "volume": 0.8,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.cr_musica": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/cr_musica",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.cr_chase": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/cr_chase",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.saf_voz": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/saf_sal_afuera",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stalker.saf_musica": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/saf_persecucion",
+    "volume": 1.0,
+    "stream": true
+   }
+  ]
+ },
+ "stalker.saf_toc": {
+  "sounds": [
+   {
+    "name": "twixxel:stalker/saf_toc",
+    "volume": 1.0
+   }
+  ]
+ },
+ "mascota6.toque": {
+  "sounds": [
+   {
+    "name": "twixxel:mascota6/toque",
+    "volume": 1.0
+   }
+  ]
+ },
+ "mascota7.toque": {
+  "sounds": [
+   {
+    "name": "twixxel:mascota7/toque",
+    "volume": 1.0
+   }
+  ]
+ }
+}

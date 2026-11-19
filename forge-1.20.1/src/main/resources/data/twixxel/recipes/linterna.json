@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["G", "R", "S"], "key": {"G": {"item": "minecraft:glass"}, "R": {"item": "minecraft:redstone"}, "S": {"item": "minecraft:stick"}}, "result": {"item": "twixxel:linterna", "count": 1}}

@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "###",
+  "###",
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "minecraft:acacia_planks"
+  }
+ },
+ "result": {
+  "item": "twixxel:armario_acacia",
+  "count": 1
+ }
+}

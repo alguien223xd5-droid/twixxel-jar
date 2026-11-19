@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "###",
+  "###",
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "minecraft:bamboo_planks"
+  }
+ },
+ "result": {
+  "item": "twixxel:armario_bamboo",
+  "count": 1
+ }
+}
