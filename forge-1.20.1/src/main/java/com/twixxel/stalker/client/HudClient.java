@@ -4,7 +4,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.RegisterGuiOverlaysEvent;
+import net.minecraftforge.client.event.RenderGuiEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
@@ -79,6 +79,11 @@ public final class HudClient {
     @Mod.EventBusSubscriber(modid = "twixxel", value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.FORGE)
     public static final class ForgeEvents {
         @SubscribeEvent
+        public static void gui(RenderGuiEvent.Post ev) {
+            render(ev.getGuiGraphics(), ev.getWindow().getGuiScaledWidth(), ev.getWindow().getGuiScaledHeight());
+        }
+
+        @SubscribeEvent
         public static void out(net.minecraftforge.client.event.ClientPlayerNetworkEvent.LoggingOut ev) {
             prevCam = null;
             title = "";
@@ -86,15 +91,4 @@ public final class HudClient {
         }
     }
 
-    @Mod.EventBusSubscriber(modid = "twixxel", value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
-    public static final class ModEvents {
-        @SubscribeEvent
-        public static void overlay(RegisterGuiOverlaysEvent ev) {
-            try {
-                ev.registerAboveAll("twx_hud", (gui, g, pt, w, h) -> render(g, w, h));
-            } catch (IllegalArgumentException ex) {
-                // ya registrado (el evento llego dos veces): se ignora
-            }
-        }
-    }
 }

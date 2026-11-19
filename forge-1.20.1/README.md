@@ -246,3 +246,6 @@ Entidades: 114 definiciones (45 nuevas, `stalker_observer` se conserva aunque 5.
 ## Tanda 51
 - Video del celular mas realista: fundido entre cuadros consecutivos (10 fps -> se ve fluido), filtro suave en los atlas (`cel_*.png.mcmeta` blur) con recorte de 1 px para evitar bordes, y el celular se escala con la pantalla (hasta x3). Limite: los cuadros originales son de 76x72 px a 10 fps, no se puede inventar mas detalle.
 - Video del celular: ahora usa los 3268 cuadros como imagenes sueltas (`textures/gui/cel/a0000.png`...), igual que el addon, en vez de 6 hojas. Se cargan al reproducir y los ya vistos se sueltan de la GPU; el suavizado se aplica por codigo (se quitaron los `.mcmeta`).
+
+## Tanda 53
+- El celular y el HUD (`CelularClient`, `HudClient`) ya no usan el registro de overlays (`RegisterGuiOverlaysEvent`, que daba "Overlay already registered"): se dibujan con `RenderGuiEvent.Post`. Si el menu salia pero el video no, era por ese registro.

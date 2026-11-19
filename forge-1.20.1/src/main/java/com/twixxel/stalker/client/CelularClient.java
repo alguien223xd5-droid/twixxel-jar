@@ -11,7 +11,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.RegisterGuiOverlaysEvent;
+import net.minecraftforge.client.event.RenderGuiEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -170,20 +170,14 @@ public final class CelularClient {
     }
 
     // ---------- eventos ----------
-    @Mod.EventBusSubscriber(modid = "twixxel", value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
-    public static final class ModEvents {
-        @SubscribeEvent
-        public static void overlay(RegisterGuiOverlaysEvent ev) {
-            try {
-                ev.registerAboveAll("celular", (gui, g, pt, w, h) -> render(g, w, h));
-            } catch (IllegalArgumentException ex) {
-                // ya registrado (el evento llego dos veces): se ignora
-            }
-        }
-    }
 
     @Mod.EventBusSubscriber(modid = "twixxel", value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.FORGE)
     public static final class ForgeEvents {
+        @SubscribeEvent
+        public static void gui(RenderGuiEvent.Post ev) {
+            render(ev.getGuiGraphics(), ev.getWindow().getGuiScaledWidth(), ev.getWindow().getGuiScaledHeight());
+        }
+
         @SubscribeEvent
         public static void tick(TickEvent.ClientTickEvent ev) {
             if (ev.phase != TickEvent.Phase.END || playing < 0) return;
