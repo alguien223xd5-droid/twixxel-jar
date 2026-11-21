@@ -16,6 +16,9 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
+import com.mojang.logging.LogUtils;
+import org.slf4j.Logger;
+
 import java.util.function.Supplier;
 
 /**
@@ -41,6 +44,9 @@ public final class CelularClient {
     private static final int FW = 76, FH = 72;
     private static final ResourceLocation FRAME = new ResourceLocation("twixxel", "textures/gui/cel_frame.png");
 
+    private static final Logger LOG = LogUtils.getLogger();
+    private static boolean loggedRender;
+    private static String missing = null;
     private static int playing = -1;
     private static long t0;
     private static long lastToggle = -9999;
@@ -66,6 +72,9 @@ public final class CelularClient {
 
     private static void start(int v) {
         playing = v;
+        loggedRender = false;
+        missing = null;
+        LOG.info("[twixxel] celular: video {} ({} cuadros)", v + 1, VIDEOS[v].frames());
         t0 = System.currentTimeMillis();
         playSound();
     }
@@ -126,6 +135,10 @@ public final class CelularClient {
     private static void render(GuiGraphics g, int w, int h) {
         if (playing < 0) return;
         Video v = VIDEOS[playing];
+        if (!loggedRender) {
+            loggedRender = true;
+            LOG.info("[twixxel] celular: dibujando video {} ({}x{})", playing + 1, w, h);
+        }
         double ft = (System.currentTimeMillis() - t0) / 100.0;         // 10 cuadros por segundo (reloj real)
         int f = (int) ft;
         if (f >= v.frames()) {                                         // termino: vuelve a empezar
@@ -164,7 +177,16 @@ public final class CelularClient {
 
     private static void blitFrame(GuiGraphics g, Video v, int f, float a) {
         ResourceLocation loc = frameLoc(v, f);
-        Minecraft.getInstance().getTextureManager().getTexture(loc).setFilter(true, false);     // suavizado (como un video)
+        var mc = Minecraft.getInstance();
+        if (missing == null && mc.getResourceManager().getResource(loc).isEmpty()) {
+            missing = loc.toString();
+            LOG.error("[twixxel] celular: NO existe el cuadro {} (faltan los PNG en assets/twixxel/textures/gui/cel/)", loc);
+        }
+        if (missing != null) {
+            g.drawCenteredString(mc.font, "Falta: " + missing, 0, -4, 0xFF5555);
+            return;
+        }
+        mc.getTextureManager().getTexture(loc).setFilter(true, false);     // suavizado (como un video)
         g.setColor(1f, 1f, 1f, a);
         g.blit(loc, -45, -43, 90, 85, 0, 0, FW, FH, FW, FH);
     }
@@ -183,7 +205,11 @@ public final class CelularClient {
             if (ev.phase != TickEvent.Phase.END || playing < 0) return;
             Minecraft mc = Minecraft.getInstance();
             if (mc.player == null || !mc.player.isAlive()
-                    || !(mc.player.getMainHandItem().getItem() instanceof com.twixxel.stalker.item.CelularItem)) stop();   // lo soltaste o moriste
+                    || !(mc.player.getMainHandItem().getItem() instanceof com.twixxel.stalker.item.CelularItem
+                    || mc.player.getOffhandItem().getItem() instanceof com.twixxel.stalker.item.CelularItem)) {
+                LOG.info("[twixxel] celular: apagado (lo soltaste o moriste)");
+                stop();
+            }
         }
     }
 }

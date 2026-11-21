@@ -252,3 +252,6 @@ Entidades: 114 definiciones (45 nuevas, `stalker_observer` se conserva aunque 5.
 
 ## Tanda 54
 - Verity y las mascotas no te seguian: `StalkerEntity` ponia `setNoAi(true)` a todo lo que no persigue, y sin IA el navegador no avanza. Ahora `verity` y `mascota*` tienen IA (siguen con pathfinding); los ya guardados se corrigen solos al hacer tick.
+
+## Tanda 55
+- Celular diagnosticable: en `latest.log` salen las lineas `[twixxel] celular: video N`, `dibujando video N` y `apagado`; si falta un cuadro PNG sale un error con su ruta y un aviso rojo en pantalla. Tambien deja de apagarse si el celular esta en la mano izquierda.
