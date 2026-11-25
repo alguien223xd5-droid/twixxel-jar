@@ -255,3 +255,8 @@ Entidades: 114 definiciones (45 nuevas, `stalker_observer` se conserva aunque 5.
 
 ## Tanda 55
 - Celular diagnosticable: en `latest.log` salen las lineas `[twixxel] celular: video N`, `dibujando video N` y `apagado`; si falta un cuadro PNG sale un error con su ruta y un aviso rojo en pantalla. Tambien deja de apagarse si el celular esta en la mano izquierda.
+
+## Tanda 56
+- Crash al cruzar el portal del Nether con la mascota suelta: las mascotas y la Verity usaban `Entity.changeDimension` (logica de portales de vanilla) para seguirte a otra dimension. Ahora `Pets.followAcross` las lleva directo con `teleportTo` entre dimensiones, sin buscar ni crear portales, y si algo falla lo deja en `latest.log` (`[twixxel] mascota: no pude llevarla...`) y reintenta a los 10 s en vez de tumbar el juego.
+- Aproximacion: no pude reproducir el crash (sin el crash-report es la causa mas probable, no confirmada). Si vuelve a crashear, mandame el `crash-reports/*.txt`.
+- CI: el jar se compila con GitHub Actions (`.github/workflows/build.yml`).

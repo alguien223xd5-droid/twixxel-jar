@@ -602,6 +602,33 @@ public final class Pets {
         return owner.blockPosition();
     }
 
+    private static final org.slf4j.Logger LOG = com.mojang.logging.LogUtils.getLogger();
+    private static final Map<UUID, Integer> moveRetry = new HashMap<>();
+
+    /**
+     * Lleva una mascota (o la Verity) a otra dimension detras de su dueno SIN el portal de vanilla
+     * (changeDimension buscaba/creaba portales y crasheaba el juego al cruzar con la mascota suelta).
+     * Va directo al sitio de destino; si algo falla se registra en el log y se reintenta mas tarde en vez de tumbar el servidor.
+     */
+    public static void followAcross(MinecraftServer s, Entity m, ServerLevel dest, double x, double y, double z) {
+        int now = s.getTickCount();
+        Integer next = moveRetry.get(m.getUUID());
+        if (next != null && now < next) return;
+        if (m.isRemoved() || !m.isAlive() || dest == null) return;
+        try {
+            if (m instanceof net.minecraft.world.entity.Mob mob) mob.getNavigation().stop();
+            m.unRide();
+            targetId.remove(m.getUUID());
+            targets.remove(m.getUUID());
+            track.remove(m.getUUID());
+            m.teleportTo(dest, x, y, z, java.util.Set.of(), m.getYRot(), 0);
+            moveRetry.remove(m.getUUID());
+        } catch (Exception ex) {
+            moveRetry.put(m.getUUID(), now + 200);
+            LOG.error("[twixxel] mascota: no pude llevarla a {} (se reintenta en 10 s)", dest.dimension().location(), ex);
+        }
+    }
+
     private static void petTick(MinecraftServer s, StalkerEntity m, int now) {
         if (m.isScripted()) return;                                         // escena de la cabra
         if (m.isNoAi() && !m.getPersistentData().getBoolean("sentado")) m.setNoAi(false);   // los guardados de antes quedaron sin IA
@@ -698,10 +725,8 @@ public final class Pets {
         }
         if (tp) {
             BlockPos sp = nearSpot(owner);
-            if (!same) {
-                Entity ne = m.changeDimension((ServerLevel) owner.level());
-                if (ne != null) ne.teleportTo((ServerLevel) owner.level(), sp.getX() + .5, sp.getY(), sp.getZ() + .5, java.util.Set.of(), m.getYRot(), 0);
-            } else m.teleportTo((ServerLevel) owner.level(), sp.getX() + .5, sp.getY(), sp.getZ() + .5, java.util.Set.of(), m.getYRot(), 0);
+            if (!same) followAcross(s, m, (ServerLevel) owner.level(), sp.getX() + .5, sp.getY(), sp.getZ() + .5);
+            else m.teleportTo((ServerLevel) owner.level(), sp.getX() + .5, sp.getY(), sp.getZ() + .5, java.util.Set.of(), m.getYRot(), 0);
             return;
         }
         if (dist > 3.5) m.getNavigation().moveTo(owner, 1.5);

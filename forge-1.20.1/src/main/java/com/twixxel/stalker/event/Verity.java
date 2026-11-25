@@ -298,8 +298,7 @@ public class Verity {
         if (owner.level() != v.level() || v.distanceTo(owner) > TP_DIST || v.getY() < v.level().getMinBuildHeight() + 2) {
             BlockPos q = owner.blockPosition();
             if (owner.level() != v.level()) {
-                Entity ne = v.changeDimension((ServerLevel) owner.level());
-                if (ne != null) ne.teleportTo((ServerLevel) owner.level(), q.getX() + .5, q.getY(), q.getZ() + .5, java.util.Set.of(), v.getYRot(), 0);
+                Pets.followAcross(s, v, (ServerLevel) owner.level(), q.getX() + .5, q.getY(), q.getZ() + .5);
             } else v.teleportTo((ServerLevel) owner.level(), q.getX() + .5, q.getY(), q.getZ() + .5, java.util.Set.of(), v.getYRot(), 0);
             return;
         }
